@@ -1,0 +1,91 @@
+body { 
+    /* background: radial-gradient(rgb(101, 101, 186) 0%, rgb(56, 90, 176) 100%); */
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+}
+main{
+    background-color: rgb(169, 169, 228);
+}
+
+header {
+    background-color: rgb(161, 133, 187);
+    height: 60px;;
+}
+
+
+nav{
+    float: right;
+    padding: 20px;
+}
+
+nav a{
+   text-decoration: none;
+   font-weight: 500;
+}
+
+nav a:hover {
+    color: rgb(97, 15, 15);    
+}
+
+h1{
+    border-bottom: solid 1px rgb(205, 205, 255);
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+h2{
+    text-transform: uppercase;
+}
+
+div p:nth-child(3) {
+    font-style: italic;
+    font-weight: 600;
+    font-size: x-large;
+}
+
+article{
+    border-bottom: solid 1px rgb(192, 192, 227);
+    padding: 10px;
+}
+
+
+
+article p::first-letter{
+    color: red;
+    font-size: 50px;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+section{
+    border-bottom: solid 1px rgb(192, 192, 227);
+    padding: 10px;
+}
+
+section p {
+    /* font-weight: 600; */
+    color: rgb(23, 21, 21);
+}
+
+
+section p::first-letter{
+    color: red;
+    font-size: 50px;
+    font-weight: bolder;
+    font-style: italic;
+
+}
+
+footer {
+    padding: 10px;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: rgb(214, 54, 54);
+}
